@@ -1,0 +1,62 @@
+<mat-card style="width: 500px">
+  <mat-card-header>
+    {{hasCompany? 'Enter the basic details of new company (not implemented)': 'Have you created the company?'}}
+  </mat-card-header>
+  <mat-card-content *ngIf="hasCompany">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <mat-form-field>
+            <mat-label>username*</mat-label>
+            <input matInput type="text" [(ngModel)]="userName" autocomplete="">
+          </mat-form-field>
+        </div>
+        <div class="col-6">
+          <mat-form-field>
+            <mat-label>code*</mat-label>
+            <input matInput type="text" [(ngModel)]="code">
+          </mat-form-field>
+        </div>
+        <div class="col-6">
+          <mat-form-field>
+            <mat-label>email</mat-label>
+            <input matInput type="password" [(ngModel)]="email">
+          </mat-form-field>
+        </div>
+        <div class="col-6">
+          <mat-form-field>
+            <mat-label>phone</mat-label>
+            <input matInput type="password" [(ngModel)]="phone">
+          </mat-form-field>
+        </div>
+        <div class="col-6">
+          <mat-form-field>
+            <mat-label>password*</mat-label>
+            <input matInput type="password" [(ngModel)]="password">
+          </mat-form-field>
+        </div>
+        <div class="col-6 pb-1" style="align-self: flex-end !important;">
+          <mat-checkbox>Enable routing account</mat-checkbox>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-footer class="justify-content-center">
+    <div *ngIf="!hasCompany" class="container justify-content-end pt-3 pb-3" style="display: flex">
+      <button mat-raised-button class="bg-success text-white" (click)="navigateToServerCredentials()">
+        Yes
+      </button>
+      <button mat-raised-button class="bg-danger ml-2 text-white" (click)="showCreateDialog()">
+        No
+      </button>
+    </div>
+    <div *ngIf="hasCompany" class="container justify-content-end pt-3 pb-3" style="display: flex">
+      <button mat-raised-button class="bg-success text-white" (click)="showCreateDialog()">
+        Back
+      </button>
+      <button mat-raised-button class="bg-light ml-2 text-white" (click)="showCreateDialog()" disabled="true">
+        Clone
+      </button>
+    </div>
+  </mat-card-footer>
+</mat-card>

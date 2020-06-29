@@ -1,0 +1,8 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand text-secondary" href="#">
+    <img height="30px" src="../../../assets/FarEye-Logo.png">
+  </a>
+  <span *ngIf="timerOption !== 'stop'" class="fa-pull-right">
+    <countup-timer [countUpTimerConfig]="testConfig"></countup-timer>
+  </span>
+</nav>

@@ -1,0 +1,49 @@
+<mat-card style="width: 500px">
+  <mat-card-header>
+    Verify your details:
+  </mat-card-header>
+  <mat-card-content>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <h6>Source Info:</h6>
+          <div class="pl-3">
+            server url: {{serverInfo.source.server}}
+            <br>
+            username: {{serverInfo.source.user}}
+          </div>
+        </div>
+        <div class="col-12 mt-2">
+          <h6>Target Info:</h6>
+          <div class="pl-3">
+            server url: {{serverInfo.target.server}}
+            <br>
+            username: {{serverInfo.target.user}}
+          </div>
+        </div>
+        <div class="col-12 mt-2">
+          <h6>
+            Migration Options:
+          </h6>
+          <div *ngFor="let migrationOption of migrationOptionsWithLabel" class="ml-3">
+              <span *ngIf="migrationOption.isChecked">{{migrationOption.label}}</span>
+          </div>
+
+        </div>
+        <div class="col-12 font-weight-bolder mt-2">
+          Note: Once you click the Migrate button, you will not be able to rollback any of the changes!
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-footer class="justify-content-center">
+    <div class="container-fluid justify-content-end pb-3" style="display: flex;">
+      <button mat-raised-button class="bg-danger text-white" (click)="reset()">
+        Reset
+      </button>
+      <button mat-raised-button class="bg-success text-white ml-3" (click)="migrate()">
+        Migrate
+      </button>
+    </div>
+  </mat-card-footer>
+</mat-card>

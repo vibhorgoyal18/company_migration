@@ -1,0 +1,28 @@
+<mat-card style="width: 500px">
+  <mat-card-header>{{(type == 1 ? 'Target' : 'Source') + ' Server Credentials'}}</mat-card-header>
+  <mat-card-content>
+    <mat-form-field>
+      <mat-label>server base url*</mat-label>
+      <input matInput type="text" [(ngModel)]="serverData.base_url" autocomplete="">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>username*</mat-label>
+      <input matInput type="text" [(ngModel)]="serverData.username">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>password*</mat-label>
+      <input matInput type="password" [(ngModel)]="serverData.password">
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-footer class="justify-content-center">
+    <div class="container-fluid justify-content-end pb-3" style="display: flex;">
+      <button mat-raised-button class="bg-primary text-white" (click)="authenticateServer()" [disabled]="isSigningIn">
+            <span *ngIf="isSigningIn"
+                  class="spinner-grow spinner-grow-sm mr-2"
+                  role="status"
+                  aria-hidden="true"></span>
+        {{isSigningIn ? 'Loading...' : 'Save'}}
+      </button>
+    </div>
+  </mat-card-footer>
+</mat-card>

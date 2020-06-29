@@ -1,0 +1,69 @@
+<mat-card style="width: 500px">
+  <mat-card-header>
+    Select the options for migration
+  </mat-card-header>
+  <mat-card-content>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedEnvironmentVariables" disabled="true">Environment
+            Variables
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedPublishProcessBeforeMigration" disabled="true">
+            Publish all existing processes
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedCompanySettings" disabled="true">Company settings
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedPublishProcessPostMigration" disabled="true">
+            Publish all new processes post migration
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedAddAndAssignDummyHubToAdmin">
+            Add a default branch and assign to admin
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedMigrateDataStore">
+            Migrate Data Stores
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedUpdatePostHookUrl">
+            Update API key in connector settings (Serve only)
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedCitiesBranches" disabled="true">Cities and branches
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedGeoLocation" disabled="true">Update Hub location and geo
+            location
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedVehicleConfiguration" disabled="true">Vehicle
+            Configuration
+          </mat-checkbox>
+        </div>
+        <div class="col-12">
+          <mat-checkbox [(ngModel)]="migrationOptions.isCheckedUsers" disabled="true">Users</mat-checkbox>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-footer class="justify-content-center">
+    <div class="container-fluid justify-content-end pb-3" style="display: flex;">
+      <button mat-raised-button class="bg-primary text-white" (click)="setMigrationOptions()">
+        Done
+      </button>
+    </div>
+  </mat-card-footer>
+</mat-card>

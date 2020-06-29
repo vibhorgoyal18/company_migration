@@ -1,0 +1,185 @@
+{
+  "USER_EMAIL": "vibhor.goyal@getfareye.com",
+  "DATA_VERSION": "1589570493",
+  "ACCOUNT": {
+    "data": {
+      "secureNotes": true,
+      "name": "Roboticwares Pvt Ltd",
+      "tabs": [
+        {
+          "name": "Personal",
+          "position": 1,
+          "id": 190138
+        },
+        {
+          "name": "FarEye",
+          "position": 2,
+          "id": 190139
+        }
+      ],
+      "brand": {
+        "support_email": "",
+        "support_instructions": "",
+        "custom_support_enabled": false
+      },
+      "companyTabName": null,
+      "newUserProfileEnabled": false
+    }
+  },
+  "BRANDING": {
+    "data": {
+      "logo": "https://cdn.onelogin.com/images/brands/logos/login/a2982c0e10c55bf3c6d742d846356c6d31081efe.png?1528092823",
+      "background": null,
+      "custom_accent_color": "#0093c3",
+      "custom_color": "#000000"
+    }
+  },
+  "FREQUENTS": {
+    "userFrequents": {
+      "324187970": 15,
+      "324187971": 19,
+      "327496803": 16,
+      "335068911": 14,
+      "335790389": 2,
+      "416347626": 100000001
+    }
+  },
+  "APPS": {
+    "entities": {
+      "324187970": {
+        "username": "FE-479",
+        "name": "Greytip Online",
+        "service": "greytip_online",
+        "isPrivate": false,
+        "isEditable": true,
+        "startUrl": "https://fareye.onelogin.com/client/apps/select/324187970",
+        "loginMatchUrl": "^https:\\/\\/roboticwares\\.greythr\\.com\\/login\\.do$",
+        "skipFormFinding": true,
+        "loginUrl": "https://roboticwares.greythr.com/login.do",
+        "loginType": "forms",
+        "extensionRequired": true,
+        "description": "",
+        "tabId": 190139,
+        "lightboxDisabled": false,
+        "icons": {
+          "square_24x24": "https://cdn.onelogin.com/images/icons/square/greytip-online/portal.png",
+          "square_48x48": "https://cdn.onelogin.com/images/icons/square/greytip-online/portal_2x.png",
+          "square_50x50": "https://cdn.onelogin.com/images/icons/square/greytip-online/portal_big.png",
+          "square_100x100": "https://cdn.onelogin.com/images/icons/square/greytip-online/portal_big_2x.png"
+        },
+        "iconUrl": "https://cdn.onelogin.com/images/icons/square/greytip-online/portal.png",
+        "id": 324187970,
+        "searchKeywords": "greytip online fe-479"
+      },
+      "324187971": {
+        "name": "G Suite Getfareye",
+        "service": "g_suite",
+        "isPrivate": false,
+        "isEditable": false,
+        "startUrl": "https://fareye.onelogin.com/client/apps/select/324187971",
+        "loginType": "saml",
+        "extensionRequired": false,
+        "description": "",
+        "tabId": 190139,
+        "lightboxDisabled": false,
+        "icons": {
+          "square_24x24": "https://cdn.onelogin.com/images/icons/square/google_apps/portal.png",
+          "square_48x48": "https://cdn.onelogin.com/images/icons/square/google_apps/portal_2x.png",
+          "rectangle_132x50": "https://cdn.onelogin.com/images/icons/rect/google_apps/portal.png",
+          "rectangle_264x100": "https://cdn.onelogin.com/images/icons/rect/google_apps/portal_2x.png"
+        },
+        "iconUrl": "https://cdn.onelogin.com/images/icons/square/google_apps/portal.png",
+        "id": 324187971,
+        "searchKeywords": "g suite getfareye"
+      },
+      "327496803": {
+        "name": "FarEye QATEST New",
+        "service": "onelogin_saml_test_(idp)_w/_nameid_(persistent)",
+        "isPrivate": false,
+        "isEditable": false,
+        "startUrl": "https://fareye.onelogin.com/client/apps/select/327496803",
+        "loginType": "saml",
+        "extensionRequired": false,
+        "description": "",
+        "tabId": 190139,
+        "lightboxDisabled": false,
+        "icons": {
+          "square_24x24": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal.png",
+          "square_48x48": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal_2x.png",
+          "rectangle_132x50": "https://cdn.onelogin.com/images/apps/rect_icons/portal/dc5f3ab6f60b5379c9234bbbf1c14f0a451c871f.png?1534942771",
+          "rectangle_264x100": "https://cdn.onelogin.com/images/apps/rect_icons/portal_2x/9635c6c6126499930579c93fc59ac2d2db1af9df.png?1534942771"
+        },
+        "iconUrl": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal.png",
+        "id": 327496803,
+        "searchKeywords": "fareye qatest new"
+      },
+      "335068911": {
+        "name": "Atlassian Cloud",
+        "service": "atlassian_cloud",
+        "isPrivate": false,
+        "isEditable": false,
+        "startUrl": "https://fareye.onelogin.com/client/apps/select/335068911",
+        "loginType": "saml",
+        "extensionRequired": false,
+        "description": "",
+        "tabId": 190139,
+        "lightboxDisabled": false,
+        "icons": {
+          "square_24x24": "https://cdn.onelogin.com/images/icons/square/atlassiansamlnew/portal.png",
+          "square_48x48": "https://cdn.onelogin.com/images/icons/square/atlassiansamlnew/portal_2x.png",
+          "rectangle_132x50": "https://cdn.onelogin.com/images/icons/rect/atlassiansamlnew/portal.png",
+          "rectangle_264x100": "https://cdn.onelogin.com/images/icons/rect/atlassiansamlnew/portal_2x.png"
+        },
+        "iconUrl": "https://cdn.onelogin.com/images/icons/square/atlassiansamlnew/portal.png",
+        "id": 335068911,
+        "searchKeywords": "atlassian cloud"
+      },
+      "335790389": {
+        "name": "FarEye Dev",
+        "service": "onelogin_saml_test_(idp)_w/_nameid_(persistent)",
+        "isPrivate": false,
+        "isEditable": false,
+        "startUrl": "https://fareye.onelogin.com/client/apps/select/335790389",
+        "loginType": "saml",
+        "extensionRequired": false,
+        "description": "",
+        "tabId": 190139,
+        "lightboxDisabled": false,
+        "icons": {
+          "square_24x24": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal.png",
+          "square_48x48": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal_2x.png",
+          "rectangle_132x50": "https://cdn.onelogin.com/images/apps/rect_icons/portal/2c36dc020f8ae2b804902b7b63ffc68db6ababf1.png?1525173164",
+          "rectangle_264x100": "https://cdn.onelogin.com/images/apps/rect_icons/portal_2x/91337578a4ed8c4065434fc1d12cb2d83bd2b0d0.png?1525173164"
+        },
+        "iconUrl": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal.png",
+        "id": 335790389,
+        "searchKeywords": "fareye dev"
+      },
+      "416347626": {
+        "name": "FarEye Staging",
+        "service": "onelogin_saml_test_(idp)_w/_nameid_(persistent)",
+        "isPrivate": false,
+        "isEditable": false,
+        "startUrl": "https://fareye.onelogin.com/client/apps/select/416347626",
+        "loginType": "saml",
+        "extensionRequired": false,
+        "description": "",
+        "tabId": 190139,
+        "lightboxDisabled": false,
+        "icons": {
+          "square_24x24": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal.png",
+          "square_48x48": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal_2x.png",
+          "rectangle_132x50": "https://cdn.onelogin.com/images/apps/rect_icons/portal/4db008e44e3060784139a3e26725f72df006d79d.png?1525775637",
+          "rectangle_264x100": "https://cdn.onelogin.com/images/apps/rect_icons/portal_2x/ab1c91b55eab298a30cf1dcc5280fbd5e96b3949.png?1525775637"
+        },
+        "iconUrl": "https://fareye.onelogin.com/images/missing_connector_icon/square/portal.png",
+        "id": 416347626,
+        "searchKeywords": "fareye staging"
+      }
+    },
+    "tabIds": {
+      "190139": true
+    },
+    "hasPersonalApps": false
+  }
+}
